@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.header {
+	height: 100px;
+	background-color: #000;
+	font-size: 40px;
+	padding: 30px 0;
+}
+
+.footer {
+	height: 100px;
+	background-color: #000;
+	font-size: 40px;
+	padding: 30px 0;
+}
+
+.main {
+	height: 90vh;
+	width: 400vw;
+	display: flex;
+}
+
+.main section {
+	padding: 100px 0;
+	height: 100%;
+	width: 100vw;
+	background-color: #888;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.title {
+	font-size: 100px;
+	color: #000;
+}
+
+.first {
+	background-image: url("https://www.sila-rf.ru/wp-content/uploads/2022/11/ustav-armii-rf.jpg");
+}
+
+.second {
+	background-image: url("https://sun9-48.userapi.com/7IOC8cH33QUj32ExyZ_p0q3xCZR_jezE56ZO1A/XwuGD2HTHKo.jpg");
+}
+
+.third {
+	background-image: url("https://alternathistory.com/wp-content/uploads/2020/11/USAfleet.jpg");
+}
+
+.fourth {
+	background-image: url("https://mobimg.b-cdn.net/v3/fetch/00/009ad9499b38d7d8d72f405f9d57c4be.jpeg");
+}
+
+.after-scroll {
+
+}
